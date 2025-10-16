@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSK Collection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">MSK Collection</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to MSK Collection</h1>
+    <p>Discover premium fashion & lifestyle products.</p>
+    <button onclick="shopNow()">Shop Now</button>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 1" />
+        <h3>Stylish Jacket</h3>
+        <p>$89.99</p>
+        <button onclick="addToCart('Stylish Jacket')">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 2" />
+        <h3>Modern Sneakers</h3>
+        <p>$59.99</p>
+        <button onclick="addToCart('Modern Sneakers')">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 3" />
+        <h3>Elegant Watch</h3>
+        <p>$129.99</p>
+        <button onclick="addToCart('Elegant Watch')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MSK Collection. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
